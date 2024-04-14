@@ -1,0 +1,582 @@
+*{
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.inicio{
+	background-color:ghostwhite;
+	font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;  
+	background-size: cover;
+ 	background-position: center;
+ 	height: 110px;
+ 	width: 100%;
+	margin-top: 0;
+	border-style:initial;  
+  	display: flex; 
+  	align-items: center;
+}
+.principal {	
+	display: flex;
+	background: linear-gradient(#FEFEFE,#BAEDFE);
+	width: 100%;
+	margin-top: 10px;
+	justify-items: center;
+	justify-content: center;	
+	justify-content: space-between;		
+	height: 400px;	
+}
+
+.nav{
+	margin-left: -100px;
+	width: 32%;
+	display: flex;
+	color: #000;
+	justify-content:space-between;
+	padding: auto;
+	margin-left: 15em; 
+	font-style: italic;	
+}
+
+.nav a{
+	color: #7A2977;
+	justify-items: auto;
+	
+}
+
+.contenedormenu {	
+	display: flex;
+	border-radius: 15px;	
+	margin-top: 10px;
+	margin-left: 60px;
+	justify-content: space-between;		
+}
+
+
+
+
+
+
+
+
+.menu {
+	color: #fff;
+	margin-left: -60px;
+	justify-content: center;
+	justify-items: center;
+	
+}
+h5 {
+	color: #7A2977;
+	
+	
+	
+	
+}
+.flayers {
+	display: flex;
+width: 40%;
+		
+	
+	
+	
+	
+	
+}
+
+.flayers img{
+	
+		height: 600px;
+	background-color: #940253;
+	border: #E8B702; 
+	
+	
+	
+}
+
+
+.visitar {	
+	font-size: 1em;
+	background-color:#704396;	
+	margin-top: 10px;	
+	justify-items: center;	
+	display:flex;
+	width: 300px;
+	height: 80px;
+	margin: 10px;
+	border: 1px solid #940253;
+    border-radius: 10%;
+	
+}
+.visitar p {
+	color:#FEFEFE ;
+	
+}
+
+.visitar:hover {
+	cursor: pointer;	
+	background-color:#E8B702;
+	box-shadow: 0 0 20px black;   
+	font-style: italic; 
+	transform: scale(1.1);
+	
+}
+.visitar1 {
+	color: aliceblue;
+	font-size: 1em;
+	background-color:#65BFA8;
+	margin-top: 10px;	
+	justify-items: center;	
+	display:flex;
+	width: 300px;
+	height: 80px;
+	margin: 10px;
+	border: 1px solid white;
+    border-radius: 10%;
+	
+}
+.contenedorcarrusel {
+	
+	justify-content: center;
+	justify-items: center;
+	
+	
+	
+	
+				
+}
+.carousel {
+	
+	  
+	width: 100px;
+	height: 90px;
+	transition: 400ms;
+	
+}
+.carousel-item img{     
+	
+	width: 100px;
+	height: 90px;   
+}
+.carousel-inner{
+	height:90px;
+	border-radius: 15%;    
+}
+.d-block w-10{
+	height: 90px;   
+}
+
+
+.carrito {
+	backdrop-filter: blur(1rem);
+	color: white;
+	font-size: 1.31em;    
+}
+
+
+.logo{
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 30px;	
+}
+.vista{
+	font-size:10px;
+	padding: auto;
+	
+	background-color:red;	
+	color: white;
+	height: 20px;
+	width: 60px;
+	display: inline-block;
+	text-decoration: none;	
+	border: 1px solid #940253;
+	line-height: 20px;	
+	transition: .3s;
+
+	
+	margin-left: 10px;	
+}
+img {
+	margin-top: 10px;
+	width: 150PX;
+
+}
+.hambur{
+	cursor: pointer;
+	margin-left: 80px;
+	margin-top: 30px;
+	width: 40PX;
+}
+h4{
+	cursor: pointer;
+	margin-left: 60px;
+	
+	width: 40PX;
+}
+
+a {	
+	text-decoration: none;
+	margin: 15px;
+   
+   
+}	
+
+.promociones {
+	background: linear-gradient( ,#FEFEFE);
+	
+	cursor: pointer;
+	display: block;
+	justify-content: space-between;
+	justify-items: center;			
+}
+
+.promociones img {
+	
+	width: 400PX;	
+}
+
+.descripcion h1  {
+	font-size: 35px;	
+	
+}
+.descripcion p {
+	font-size: 25px;	
+	
+}
+
+
+
+h1{
+	margin: 20px;
+	margin-top: 100px;
+	font-size: 40px;
+	display: flex;	
+}
+p{
+	color: red;
+	margin: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+	display: flex;	
+}
+.oferta {
+	display: flex;
+	justify-content: center;
+}
+
+.oferta img{
+	
+	
+	height: 300px;
+	padding: 5px;
+	border-radius: 20px;
+	
+	transition: 400ms;
+	
+	
+}
+
+.oferta img:hover{
+   
+    opacity: 0.6;
+	transform: scale(1.1);
+   
+}
+.lista {
+	background: linear-gradient(#FEFEFE,#940253 );
+	
+	display: block;	
+	justify-content: space-between;
+	text-align: center;
+	padding: 20px;
+	
+			    
+}
+
+.alimentos {
+	box-sizing: border-box;
+	background-color: cadetblue;
+	margin: 20px;
+	display: block;	
+	border-radius: 20px;	
+	transition: 400ms;
+	box-shadow: 10px 10px 30px rgb(0, 0, 0);
+	border: 1px solid green;
+    height: 260px;
+	
+	text-align: center;
+	justify-content: center;
+}
+.precio {
+	box-sizing: border-box;
+	
+}
+.precio img{
+	height: 200px;
+	
+}
+
+.alimentos:hover {
+	cursor: pointer;
+	color: #fff;
+	background-color:orange;
+	box-shadow: 0 0 20px #fff;  
+	transform: scale(1.1);
+}
+
+.secundario{
+	display: block;
+	justify-content: center;
+
+
+}
+.comentarios {
+	justify-content: space-between;
+	display: block;
+	justify-content: center;
+	text-align: center;
+
+	
+}
+
+.comentarios img{
+	display: flex;
+	margin-left: 24px;
+	justify-content: center;
+	justify-items: center;
+	width: 75%;
+	
+	padding: 5px;
+	border-radius: 20px;
+	
+	transition: 400ms;
+	box-shadow: 10px 10px 30px rgb(0, 0, 0);
+	
+}
+.comentarios img:hover{
+	cursor: pointer;
+   
+    opacity: 0.6;
+	transform: scale(1.1);
+   
+}
+
+.razas{
+	display: block;
+	width: 90%;
+	text-align: center;
+	justify-items: center;
+		
+	
+	cursor: pointer;
+      
+}
+
+.razas img{
+	width: 100%;
+	
+		
+	
+	cursor: pointer;
+      
+}
+
+
+
+
+
+.leer a{
+	
+	
+	justify-content: center;
+	
+	cursor: pointer;
+      
+}
+
+
+
+
+
+
+
+.footer{
+	
+	justify-items: center;
+	justify-content: center;
+	background-color: black;
+	color: #fff;
+	margin-top: 0;
+	width: 100%;
+	height: 200px;
+	margin: 0;	
+}
+.redes{
+    margin: 20px 0;
+	font-size: 20px;
+}
+.redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color:yellow;
+    border: 1px solid #940253;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px;
+    transition: .3s;
+	margin-right: 5px;
+	text-align: center;
+}
+
+
+
+
+
+.redes a:hover{
+    color: #fff;
+    background-color: #940253;
+    box-shadow: 0 0 20px #fff;
+}
+
+
+ /*responsive */
+ 
+ @media screen and (min-width: 1024px){
+    
+	.principal  {
+		display: block;	
+		
+		
+		
+		
+		
+		
+	}
+	.comentarios {
+		justify-content: space-between;
+		display: flex;
+		justify-content: center;
+		text-align: center;	
+		
+	}
+	.comentarios img{
+		display: flex;		
+		justify-content: center;	
+		justify-items: center;
+		justify-content: space-between;
+		border-radius: 20px;
+		
+		transition: 400ms;
+		box-shadow: 10px 10px 30px rgb(0, 0, 0);
+		
+	}
+
+	.razas{
+		
+		justify-content: center;	
+		justify-items: center;
+		justify-content: space-between;
+		margin-left: 20px;
+			
+	}
+	
+	.promociones {
+			
+		cursor: pointer;
+		display: flex: ;;
+		justify-content: space-between;
+		justify-items: center;			
+	}
+	
+	.promociones img {
+		
+		width: 400PX;	
+	}
+	
+	.descripcion h1  {
+		font-size: 35px;	
+		
+	}
+	.descripcion p {
+		font-size: 25px;	
+		
+	}
+	
+	.lista {
+		background: linear-gradient(#FEFEFE,#940253 );
+		display: flex;
+		justify-content: space-between;
+		justify-items: center;
+		
+		
+		
+		
+				
+					
+	}
+	
+	.alimentos {
+		top: 15px;
+		box-sizing: border-box;
+		background-color: cadetblue;
+		
+		display: block;	
+		border-radius: 20px;	
+		transition: 400ms;
+		box-shadow: 10px 10px 30px rgb(0, 0, 0);
+		border: 1px solid green;
+		height: 300px;
+		width: 23%;
+		text-align: center;
+		justify-content: center;
+	}
+	.precio h3 {
+		margin-top: -15px;
+		padding: 15px;
+		justify-content: space-between;
+		justify-content: center;
+		justify-items: center;
+		box-sizing: border-box;
+		
+	}
+	.producto {
+		
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		box-sizing: border-box;
+		
+	}
+	.producto img {
+		
+		
+		
+		justify-content: space-between;
+		justify-content: center;	
+		
+		
+	}
+		
+	
+	
+	
+	
+	
+    
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
